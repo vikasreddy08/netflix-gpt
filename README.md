@@ -28,7 +28,11 @@
 - customhook for trailer video and update store with trailer video
 - embedded the youtube video and make it autoplay and mute
 - added tailwind classes to make main container look like netflix
-
+- build secondary component
+- built movies list and movies card
+- found out tmdb image cdn url
+- made the browse page better
+- create usePopularMovies hook (this all can be made into single hook)
 
 
 # Features
