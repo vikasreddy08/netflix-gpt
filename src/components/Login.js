@@ -9,7 +9,7 @@ import {
 import { auth } from "../utils/firebase";
 import { useDispatch } from "react-redux";
 import { addUser } from "../utils/userSlice";
-import { USER_AVATAR } from "../utils/constants";
+import { BG_IMAGE_URL, USER_AVATAR } from "../utils/constants";
 
 const Login = () => {
   const [isSignInForm, setIsSignInForm] = useState(true);
@@ -91,11 +91,7 @@ const Login = () => {
   return (
     <div>
       <Header />
-      <img
-        src="https://assets.nflxext.com/ffe/siteui/vlv3/5efeb1fd-55d2-4799-8d38-e59e15858b9c/web/IN-en-20260427-TRIFECTA-perspective_0933b420-0cb6-4e67-8e9d-3224dc64b517_large.jpg"
-        alt="Netflix"
-        className="absolute"
-      />
+      <img src={BG_IMAGE_URL} alt="Netflix" className="absolute" />
       <form
         className="absolute p-12 bg-black w-3/12 mx-auto my-[10%] right-0 left-0 text-white rounded-lg bg-opacity-80"
         onSubmit={(e) => e.preventDefault()}

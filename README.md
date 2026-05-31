@@ -33,6 +33,10 @@
 - found out tmdb image cdn url
 - made the browse page better
 - create usePopularMovies hook (this all can be made into single hook)
+- GPT search feature
+- GPT search bar
+- Multi-language support in our app
+- Integrate GPT apis ( GET open api key)
 
 
 # Features
