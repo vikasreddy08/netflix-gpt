@@ -37,6 +37,13 @@
 - GPT search bar
 - Multi-language support in our app
 - Integrate GPT apis ( GET open api key)
+- GPTMovieSuggestions results page
+- fetched gptMoviesSuggestions from TMDB
+- created gptSlice and added data
+- re-used movie list component to make movie suggestions container
+- memoisation of results in the custom hooks
+- added .env file and added it to .gitignore
+- making the application responsive( for mobile )
 
 
 # Features

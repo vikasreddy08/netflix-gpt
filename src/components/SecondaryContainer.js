@@ -8,7 +8,7 @@ const SecondaryContainer = () => {
   return (
     movies && (
       <div className=" bg-black">
-        <div className="-mt-72 pl-12 relative z-10">
+        <div className="md:-mt-72 mt-0 pl-4 md:pl-12 relative z-10">
           <MovieList title={"Now Playing"} movies={movies?.nowPlayingMovies} />
           <MovieList title={"Popular"} movies={movies?.popularMovies} />
           <MovieList title={"Upcoming"} movies={movies?.nowPlayingMovies} />
